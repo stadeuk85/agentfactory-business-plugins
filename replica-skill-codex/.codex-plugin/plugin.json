@@ -1,0 +1,38 @@
+{
+  "name": "replica-skill-codex",
+  "version": "1.1.0",
+  "description": "Clean-room product reconstruction, parity testing, evidence-led improvement, rebranding and launch workflows for Codex and ChatGPT.",
+  "author": {
+    "name": "stadeuk85",
+    "url": "https://github.com/stadeuk85"
+  },
+  "homepage": "https://github.com/stadeuk85/agentfactory-business-plugins/tree/main/replica-skill-codex",
+  "repository": "https://github.com/stadeuk85/agentfactory-business-plugins",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "agent-skills",
+    "clean-room",
+    "product-reconstruction",
+    "app-development"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Replica Codex",
+    "shortDescription": "Rebuild apps clean-room",
+    "longDescription": "Clean-room product reconstruction for Codex and ChatGPT, from recon and architecture through build, parity testing, evidence-led improvement, rebrand, launch and deployment.",
+    "developerName": "stadeuk85",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Recon",
+      "Architecture",
+      "Build",
+      "Testing",
+      "Parity",
+      "Product research",
+      "Brand",
+      "Launch",
+      "Deploy"
+    ]
+  }
+}
