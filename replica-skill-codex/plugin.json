@@ -1,0 +1,49 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "replica-skill-codex",
+  "version": "1.1.0",
+  "description": "Clean-room product reconstruction, parity testing, evidence-led improvement, rebranding and launch workflows for Codex and ChatGPT.",
+  "author": {
+    "name": "stadeuk85",
+    "url": "https://github.com/stadeuk85"
+  },
+  "homepage": "https://github.com/stadeuk85/agentfactory-business-plugins/tree/main/replica-skill-codex",
+  "repository": "https://github.com/stadeuk85/agentfactory-business-plugins",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "agent-skills",
+    "clean-room",
+    "product-reconstruction",
+    "app-development",
+    "product-research"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Replica Codex",
+        "shortDescription": "Rebuild apps clean-room",
+        "longDescription": "A clean-room product reconstruction workflow for Codex and ChatGPT. Map an existing product from lawful evidence, design and build an original implementation, test functional parity, identify evidence-backed improvements, rebrand it, prepare launch materials and deploy only after production preflight.",
+        "developerName": "stadeuk85",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Product reconnaissance",
+          "Architecture planning",
+          "Design-system reconstruction",
+          "Clean-room implementation",
+          "Backend planning",
+          "End-to-end testing",
+          "Feature parity scoring",
+          "User-review analysis",
+          "Rebranding",
+          "Launch planning",
+          "Deployment preflight"
+        ],
+        "defaultPrompt": [
+          "Use Replica Codex to map this product and plan a clean-room version.",
+          "Run the Replica workflow on this app and show me the gaps before building."
+        ]
+      }
+    }
+  }
+}

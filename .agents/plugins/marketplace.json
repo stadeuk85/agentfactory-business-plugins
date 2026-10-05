@@ -1,0 +1,20 @@
+{
+  "name": "agentfactory-business-plugins",
+  "interface": {
+    "displayName": "AgentFactory Business Plugins"
+  },
+  "plugins": [
+    {
+      "name": "replica-skill-codex",
+      "source": {
+        "source": "local",
+        "path": "./replica-skill-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
